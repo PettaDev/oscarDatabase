@@ -60,6 +60,6 @@ The Shawshank Redemption
 
 ### 12 - Pensando no ano em que você nasceu: Qual foi o Oscar de melhor filme, Melhor Atriz e Melhor Diretor?
 ```
-Million Dollar Baby	Hilary Swank	ACTRESS IN A LEADING ROLE
-			Clint Eastwood	DIRECTING
+Million Dollar Baby	Hilary Swank	-> ACTRESS IN A LEADING ROLE
+			Clint Eastwood	-> DIRECTING
 ```
