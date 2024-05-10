@@ -19,9 +19,8 @@ SELECT ano_cerimonia, categoria FROM filmes WHERE categoria = "Actress" ORDER BY
 SELECT categoria, nome_do_indicado, ano_cerimonia FROM filmes WHERE categoria = "Actress" ORDER BY ano_cerimonia ASC LIMIT 1;
 
 # 7- Na coluna/campo "Vencedor", altere todos os valores com "Sim" para 1 e todos os valores "Não" para 0.
-UPDATE filmes SET vencedor = CASE WHEN vencedor = "sim" THEN "1" ELSE "0" END;
--- PT 2. Para voltar os valores
-UPDATE filmes SET vencedor = CASE WHEN vencedor = "1" THEN "sim" ELSE "não" END;
+UPDATE filmes SET vencedor = CASE WHEN vencedor = 'Sim' THEN '1' WHEN vencedor = 'Não' THEN '0' ELSE vencedor END WHERE vencedor IN ('Sim', 'Não');
+
 -- Teste
 SELECT * FROM filmes;
 
