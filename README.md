@@ -1,6 +1,16 @@
 # Atividades para trabalhar com o Oscar
 
 
+```
+--> Alguns exemplos de regras;
+- PRIMARY KEY único e obrigatório -> Só pode ser utilizado uma única vez por tabela. 
+- not null (Não Vazio/item Obrigatório) 
+- Unique (Item único) 
+- Default (Se o campo estiver vazio ele preencherá automaticamente com o valor informado ao lado)
+- Drop (apagar um item)
+```
+
+
 ### 1- Quantas vezes Natalie Portman foi indicada ao Oscar?
 ```
 R: 3 vezes
